@@ -1,6 +1,7 @@
 .header-bg{
-    background-image: url('Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     height: 698px;
+    align-items: center;
     
 }
 
