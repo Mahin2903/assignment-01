@@ -1,0 +1,211 @@
+.header-bg{
+    background-image: url('Assets/Hero-bg.png');
+    
+    
+    height: 698px;
+    
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.h-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 0 150px;
+}
+.btn-primary{
+    background-color : #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+nav a{
+    text-decoration: none;
+}
+.h-body{
+    text-align: center;
+    gap: 37px;
+    margin: 158px 267.5px 152px 267.5px;
+}
+.h-body h1{
+    font-size: 65px;
+}
+.preview-section{
+    display: flex;
+    margin: 116px 159px 0 141px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.preview-section img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+.preview-section h1{
+    font-size: 42px;
+    color: #252432;
+
+}
+.preview-section p{
+    font-size: 24px;
+    color: #757575;
+}
+.preview-section button{
+    height: 48px;
+    width: 229px;
+}
+.user-info-container{
+    display: flex;
+}
+.user-section{
+    background-color: #4d47ff30;
+    border-radius: 16px;
+    max-width: 1140px;
+    margin: 116px 159px 0 141px;
+    text-align: center;
+    padding: 10px 0 2px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.user-info{
+    margin: 50px 142px;
+    gap: 40px;
+}
+.user-info-container{
+    gap: 158px;
+    justify-content: center;
+
+}
+.users h3{
+    color: #4E47FF;
+    font-size: 80px;
+    margin-bottom: 0%;
+}
+.users p{
+    color: #00000077;
+    gap: 20px;
+}
+.card-container{
+    padding: 24px;
+    
+   
+}
+.cards-container{
+    display: flex;
+    gap: 35px;
+    margin: 50px 150px 0 80px;
+     
+}
+
+.card-container h2{    
+    text-align: center;
+}
+.card{
+    padding: 24px;
+    gap: 24px;
+    width: 365px;
+    
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    
+}
+.review-star{
+    display: flex;
+    gap: 4px;
+    
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+   
+}
+.reviewer img{
+    margin-right: 10px;    
+}
+.review-text h1{
+    font-size: 28px;
+    margin: 24px 0 8px 0;
+}
+reviewer-text p{
+    margin-bottom: 16px;
+    font-size: 14px;
+    color:#1E1E1E;
+
+}
+.reviewer-details h5{
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.reviewer-details h4{
+    
+    font-weight: 600px;
+    color: #686565;
+    line-height: 0px;
+    font-size: 17px;
+    padding: 0px;
+    
+}
+.focus-section{
+    padding: 71px 150px;
+    max-width: 1140px;
+    margin: 137px 149px 14px 151px;
+    gap: 20px;
+    text-align: center;
+}
+.form-section{
+    margin: 92px 150px 0 150px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 12px;
+  width: 497px;
+  
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  outline: none;
+  background-color: rgb(240, 246, 255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  
+  
+}
+input{
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(6, 141, 6);
+}
+
