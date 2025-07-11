@@ -1,7 +1,5 @@
 .header-bg{
-    background-image: url('Assets/Hero-bg.png');
-    
-    
+    background-image: url('/Assets/Hero-bg.png');
     height: 698px;
     
 }
@@ -208,4 +206,44 @@ input{
 button:hover{
     background-color: rgb(6, 141, 6);
 }
+.form-heading{
+    max-width: 558px;
+    max-height: 232px;
+}
+
+
+.landing {
+  margin-top: 14px;
+  text-align: center;
+  padding: 104px 455px;
+  
+  background-color: #dbe6fc;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4F46E5; 
+  margin-bottom: 1px;
+}
+
+.tagline {
+  max-width: 531px;
+  margin: 20px auto;
+  color: #8987A1;
+  font-size: 14px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.nav-links a {
+  color: #8987A1; 
+  text-decoration: none;
+}
+
 
