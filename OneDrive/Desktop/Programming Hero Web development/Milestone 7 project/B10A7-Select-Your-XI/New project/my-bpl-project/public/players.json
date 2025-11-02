@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "rating": 95,
+    "batting_style": "Left-handed",
+    "price": 120000
+  },
+  {
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "rating": 88,
+    "batting_style": "Left-handed",
+    "price": 100000
+  },
+  {
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "rating": 90,
+    "batting_style": "Right-handed",
+    "price": 95000
+  },
+  {
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "rating": 85,
+    "batting_style": "Right-handed",
+    "price": 85000
+  },
+  {
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "rating": 83,
+    "batting_style": "Right-handed",
+    "price": 80000
+  },
+  {
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "rating": 82,
+    "batting_style": "Right-handed",
+    "price": 78000
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "rating": 86,
+    "batting_style": "Left-handed",
+    "price": 90000
+  },
+  {
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "rating": 94,
+    "batting_style": "Right-handed",
+    "price": 150000
+  },
+  {
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "rating": 91,
+    "batting_style": "Left-handed",
+    "price": 135000
+  },
+  {
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "rating": 92,
+    "batting_style": "Right-handed",
+    "price": 140000
+  },
+  {
+    "name": "David Miller",
+    "country": "South Africa",
+    "rating": 89,
+    "batting_style": "Left-handed",
+    "price": 130000
+  },
+  {
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "rating": 96,
+    "batting_style": "Left-handed",
+    "price": 160000
+  }
+]
