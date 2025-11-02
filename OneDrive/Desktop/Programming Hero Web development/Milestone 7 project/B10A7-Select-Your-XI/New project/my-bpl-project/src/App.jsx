@@ -8,6 +8,8 @@ import AvailablePlayer from './components/Available player/AvailablePlayer'
 import icon from './assets/user.png'
 import HeroSection from './components/Available player/HeroSection'
 import SeletedPlayer from './components/SeletedPlayer'
+import FooterSec from './components/FooterSec'
+
 
    const AvailablePlayerPromise = fetch('/public/players.json').then(res => res.json());
 
@@ -86,8 +88,9 @@ function App() {
 }>
           <AvailablePlayer selectedP={selectedP} coins={coins} setCoins={setCoins}  updatePlayerA={updatePlayerA} AvailablePlayerPromise = {AvailablePlayerPromise} icon={icon}></AvailablePlayer>
         </Suspense>:<SeletedPlayer coins={coins} setCoins={setCoins} selectedP={selectedP} updatePlayerA={updatePlayerA} ></SeletedPlayer>
+        
         }
-        {/* <img src={heroImg} alt="" /> */}
+        <FooterSec heroImg={heroImg}></FooterSec>
         
         
       </div>
