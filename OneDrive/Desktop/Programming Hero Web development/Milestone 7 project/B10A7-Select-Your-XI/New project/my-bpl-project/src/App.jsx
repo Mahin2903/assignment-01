@@ -14,6 +14,8 @@ import SeletedPlayer from './components/SeletedPlayer'
 function App() {
   const [toggle, SetToggle] = useState(true);
   const[selectedP, updatePlayerA ] = useState([])
+  const [coins, setCoins] = useState(600000); 
+
   
 
   
@@ -32,7 +34,7 @@ function App() {
       <li><a>Fixture</a></li>
       <li><a>Teams</a></li>
       <li><a>Sechedules</a></li>
-      <li><a><button className="btn"><span >60000000</span> coins <img src={coinImg} className='h-5 w-5' alt="" /></button></a></li>
+      <li><a><button className="btn"><span >{coins}</span> coins <img src={coinImg} className='h-5 w-5' alt="" /></button></a></li>
       
     </ul>
   </div>
@@ -82,8 +84,8 @@ function App() {
         {
           toggle === true?<Suspense fallback={<span className="loading loading-spinner loading-xl "></span>
 }>
-          <AvailablePlayer selectedP={selectedP} updatePlayerA={updatePlayerA} AvailablePlayerPromise = {AvailablePlayerPromise} icon={icon}></AvailablePlayer>
-        </Suspense>:<SeletedPlayer selectedP={selectedP} updatePlayerA={updatePlayerA} ></SeletedPlayer>
+          <AvailablePlayer selectedP={selectedP} coins={coins} setCoins={setCoins}  updatePlayerA={updatePlayerA} AvailablePlayerPromise = {AvailablePlayerPromise} icon={icon}></AvailablePlayer>
+        </Suspense>:<SeletedPlayer coins={coins} setCoins={setCoins} selectedP={selectedP} updatePlayerA={updatePlayerA} ></SeletedPlayer>
         }
         {/* <img src={heroImg} alt="" /> */}
         

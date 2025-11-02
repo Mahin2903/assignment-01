@@ -1,6 +1,8 @@
 import React from 'react';
 
-const SelectedCard = ({player, handleRemovePlayer}) => {
+const SelectedCard = ({player, handleRemovePlayer, coins, setCoins}) => {
+    
+    
     return (
         <div>
             <div className="flex justify-between items-center border-1 border-gray-300 rounded-xl p-4 mb-2">
@@ -15,9 +17,20 @@ const SelectedCard = ({player, handleRemovePlayer}) => {
                 </div>
             </div>
             <div>
-                <img onClick={() => handleRemovePlayer(player)} className="cursor-pointer" src="https://bold-amethyst-0b4ecxtafs.edgeone.app/Frame.png" alt="" />
+                
+                <img 
+                    onClick={() => {
+                      handleRemovePlayer(player);
+                      setCoins(coins + player.price); 
+                    }}
+                    className="cursor-pointer"
+                    src="https://i.postimg.cc/KjDbGphC/Frame.png"
+                    alt="" 
+                  />
+
             </div>
             </div>
+            
         </div>
     );
 };

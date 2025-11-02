@@ -6,7 +6,7 @@ import SeletedPlayer from "../SeletedPlayer";
 
 
 
-const PlayerCard = ({player, icon, selectedP, updatePlayerA}) => {
+const PlayerCard = ({player, icon, selectedP, updatePlayerA, coins, setCoins}) => {
         // console.log(player,icon)
         const[Selected, updateButton] =useState(false);
         
@@ -23,9 +23,11 @@ const PlayerCard = ({player, icon, selectedP, updatePlayerA}) => {
               alert("You can only select up to 6 players!");
               return; // stop here if max limit reached
             }
+        
         updateButton(!Selected)
         
         updatePlayerA([...selectedP,playerData])
+        setCoins(coins - playerData.price);
         }
         
         
